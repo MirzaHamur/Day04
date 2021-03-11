@@ -7,8 +7,6 @@ var y = x++;
  // Only change code below this line
 
  return myRes;
-
-
 }
 
 console.log(main());
