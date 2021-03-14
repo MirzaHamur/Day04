@@ -1,18 +1,15 @@
-function main (numOne, numTwo){
-    
-     
-     // Only change code below this line 
-    var x = 5.5;
-    var y = 2.5;
-    var z = x/y;
-     // Only change code below this line
-
-    
-     return myQuotient
-     }
-     
-    
-    
-    console.log(main());
-    module.exports = main;
-    
+function main(numOne, numTwo) {
+    // Only change code below this line
+    var numOne;
+    var numTwo;
+    var myQuotient;
+    myQuotient = numOne / numTwo;
+    // Only change code above this line
+   return myQuotient;
+  }
+  
+  console.log(main(5.0, 2.0));
+  console.log(main(16.5, 5.5));
+  console.log(main(102.0, 25.5));
+  
+  module.exports = main;

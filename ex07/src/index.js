@@ -1,22 +1,17 @@
-function main (numOne, numTwo){
-    
-     
-     // Only change code below this line 
-     
-     7 % 2 = 1 because;
-     Math.floor(7 / 2) = 3;
-     3 * 2 = 6;
-     7 - 6 = 1;
-     19 % 2 = 1;
-     52 % 2 = 0;
-     // Only change code below this line
-
-    
-     return myQuotient
-     }
-     
-    
-    
-    console.log(main());
-    module.exports = main;
-    
+function main(numOne, numTwo) {
+    // Only change code below this line
+  
+    var numOne;
+    var numTwo;
+    var reminder;
+    reminder = numOne % numTwo;
+   // Only change code above this line
+  
+    return reminder;
+  }
+  
+  console.log(main(5, 2));
+  console.log(main(15, 4));
+  console.log(main(102, 25));
+  
+  module.exports = main;

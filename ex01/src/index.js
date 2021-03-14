@@ -1,28 +1,23 @@
-function main (numOne, numTwo){
+function main(numOne, numTwo) {
+  var quotient;
+  if (numTwo === 0) {
+    quotient = "Divide by 0! Cannot divide by zero!";
+  } else {
+    // Only change code below this line
 
-var quotient;
-if(numTwo === 0) {
-    quotient =  'Divide by 0! Cannot divide by zero!';
+    var numOne;
+    var numTwo;
 
-} else {
-   // Only change code below this line
-    var x = 25;
-    var y = 5;
-    var z = x/y;
+    quotient = numOne / numTwo;
+    // Only change code above this line
+  }
 
-    var a = 420;
-    var b = 10;
-    var c = a/b;
-
-    var d = 55;
-    var e = 0;
-    var f = d/0;
-  //  Only change code below this line
+  return quotient;
 }
 
- return quotient;
+console.log(main(15, 3));
+console.log(main(25, 5));
+console.log(main(420, 10));
+console.log(main(55, 0));
 
-}
-
-console.log(main(numOne, numTwo));
-module.exports = main; //change this line
+module.exports = main;
